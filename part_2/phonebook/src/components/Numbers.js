@@ -1,9 +1,11 @@
 import React from 'react'
 
 const Numbers = ({ person }) => {
-    return (
-      <p>{person.name} {person.number}</p>
-    )
-  }
+  return (
+    <div>
+      <p> {person.name} {person.number} </p>
+    </div>  
+  )
+}
 
 export default Numbers
